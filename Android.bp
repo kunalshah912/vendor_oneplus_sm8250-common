@@ -136,18 +136,6 @@ android_app_import {
 }
 
 android_app_import {
-	name: "DaxUI",
-	owner: "oneplus",
-	apk: "proprietary/system_ext/priv-app/DaxUI/DaxUI.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	system_ext_specific: true,
-}
-
-android_app_import {
 	name: "OPOnlineConfig",
 	owner: "oneplus",
 	apk: "proprietary/system_ext/app/OPOnlineConfig/OPOnlineConfig.apk",
